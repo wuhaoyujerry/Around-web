@@ -24,3 +24,7 @@ yarn-error.log*
 
 # idea folder
 /.idea
+/src/assets/winterweather.jpg
+/src/assets/stations_boston.jpg
+/src/assets/revere-hotel-boston-common-massachusetts-home-top.jpg
+/src/assets/boston-01.jpg
