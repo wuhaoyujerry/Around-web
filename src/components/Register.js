@@ -3,7 +3,7 @@ import {
 	Form, Input, Button, message
 } from 'antd';
 import $ from 'jquery'
-import { API_ROOT } from "./Constants"
+import { API_ROOT } from "../constants"
 import { Link } from 'react-router-dom';
 
 class RegistrationForm extends React.Component {
