@@ -2,7 +2,7 @@ import React from 'react';
 import $ from 'jquery';
 import { Modal, Button, message } from 'antd';
 import { WrappedCreatePostForm } from './CreatePostForm';
-import { API_ROOT, POS_KEY, AUTH_PREFIX, TOKEN_KEY } from '../constants';
+import { API_ROOT, POS_KEY, AUTH_PREFIX, TOKEN_KEY, LOC_SHAKE} from '../constants';
 export class CreatePostButton extends React.Component {
 	state = {
 		visible: false,
@@ -21,8 +21,8 @@ export class CreatePostButton extends React.Component {
 				const file = values.image[0];
 
 				const formData = new FormData();
-				formData.set('lat', lat + Math.random() * 0.1 - 0.05);
-				formData.set('lon', lon + Math.random() * 0.1 - 0.05);
+				formData.set('lat', lat + Math.random() * LOC_SHAKE * 2 - LOC_SHAKE);
+				formData.set('lon', lon + Math.random() * LOC_SHAKE * 2 - LOC_SHAKE);
 				formData.set('message', values.message);
 				for (let i in file) {
 					formData.append('image', file[i], i);
