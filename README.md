@@ -1,6 +1,6 @@
 # Around-web
 
-This is the frontend implementation of the project Around. You can view the backend implemented at [here](https://github.com/wuhaoyujerry/Around).
+This repo is the frontend implementation of the project Around. You can view the backend implemented at [here](https://github.com/wuhaoyujerry/Around).
 
 ## Project Detail
 Around is a geo-index based social network web application.
