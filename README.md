@@ -9,8 +9,11 @@ Around is a geo-index based social network web application.
 * Users can search for posts on Google Map
 
 ## Project Demo Photo
+![alt text](https://github.com/wuhaoyujerry/Around-web/blob/master/src/assets/Screen%20Shot%202019-02-21%20at%2011.28.17%20AM.png)
+     
+![alt text](https://github.com/wuhaoyujerry/Around-web/blob/master/src/assets/Screen%20Shot%202019-02-21%20at%2011.28.44%20AM.png)
 
-
+----
 ## Available Scripts
 
 This project is created by React. In the project directory, you can run:
